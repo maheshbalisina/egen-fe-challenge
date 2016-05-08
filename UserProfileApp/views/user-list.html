@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+        <h1 class="heading">Users</h1>
+        <div class="pull-right">
+            <a href="/#/adduser" class="btn btn-orange">
+                <span class="glyphicon glyphicon-plus"></span> Add User
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row mt-20">
+    <div class="col-lg-10 col-lg-offset-1 content-wrapper">
+        <table class="table" ng-init="getAllUsers()">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>City</th>
+                    <th>Company</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="user in Users" ng-click="getUser(user.id)" class="record">
+                    <td>
+                        <img class="img img-circle profile-pic-icon" ng-src="{{user.profilePic}}" />
+                    </td>
+                    <td>{{getFullName(user)}}</td>
+                    <td>{{user.email}}</td>
+                    <td>{{user.address.city}}</td>
+                    <td>{{user.company.name}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,141 @@
+body {
+    font-family: Lato;
+    background: #f4f4f4;
+}
+
+.navbar-default {
+    background: #fff;
+}
+
+.heading {
+    display: inline;
+}
+
+.btn-orange {
+    color: #ff6600;
+    background-color: transparent;
+    border: 1px solid #ff6600;
+}
+
+.btn-orange:hover {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+.text-orange {
+    color: #ff6600 !important;
+}
+
+.menu-drawer {
+    font-size: 20px !important;
+}
+
+.logo {
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+}
+
+.profile-pic-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ff6600;
+}
+
+.content-wrapper {
+    background: #fff;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.table > thead > tr > th {
+    color: #ff6600;
+}
+
+.table th,
+.table td {
+    border-color: #ff6600 !important;
+}
+
+.record {
+    cursor: pointer;
+}
+
+.form-group {
+    margin-top: 30px !important;
+}
+
+.field-label {
+    color: #ff6600;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.field-content {
+    display: block;
+    font-size: 18px;
+}
+
+.profile-pic {
+    border: 5px solid #ff6600;
+    padding: 0px !important;
+}
+
+.form-group > label {
+    color: #ff6600;
+}
+
+.error {
+    color: rgb(222, 67, 67);
+}
+
+.side-menu {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(85, 93, 104, 0.95);
+    box-shadow: -5px 0px 5px gray;
+    padding-left: 0px;
+}
+
+.side-menu .menu-heading {
+    color: #ff6600;
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.side-menu ul li {
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.side-menu ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn-circle {
+    color: #ff6600;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-circle:hover {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
